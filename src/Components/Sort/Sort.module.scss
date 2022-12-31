@@ -1,0 +1,23 @@
+.sort {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  &__style {
+    display: flex;
+  }
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 13px;
+    background: rgba(208, 208, 208, 0.08);
+    border-radius: 6px 0px 0px 6px;
+    border: none;
+    cursor: pointer;
+    &_list {
+      background: #F2F2F2;
+      border-radius: 0px 6px 6px 0px;
+    }
+  }
+}

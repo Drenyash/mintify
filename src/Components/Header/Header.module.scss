@@ -1,0 +1,15 @@
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+  z-index: 1;
+}
+
+.header__col {
+  display: flex;
+  align-items: center;
+}

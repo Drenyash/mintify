@@ -1,10 +1,10 @@
 import React, {useState} from 'react'
-import NFT from './NFT'
-import Sort from './UI/Sort'
-import pic from '../Assets/img/nft/1.jpg'
-import Modal from './UI/Modal/Modal'
-
-
+import { NavLink } from 'react-router-dom'
+import NFT from '../NFT/NFT'
+import Sort from '../Sort/Sort'
+import pic from '../../Assets/img/nft/1.jpg'
+import style from './MainContent.module.scss'
+import Button from '../../UI/Button/Button'
 
 function MainContent() {
   const [nft, setNft] = useState([
@@ -20,17 +20,19 @@ function MainContent() {
     {id: 10, img: pic, title: 'The Holy Grail', author: 'Pixart Motion', type: 'Fixed price', price: 0.001, crypto: 'BTC'},
   ])
   return (
-    <section className='content'>
-      <div className="content__header">
-        <div className="content__top">
-          <h1 className='content__title'>Cryptographics</h1>
-          <button className='btn'>Create new item</button>
+    <section className={style.content}>
+      <div className={style.content__header}>
+        <div className={style.content__top}>
+          <h1 className={style.content__title}>Cryptographics</h1>
+          <Button>Create new item</Button>
         </div>
         <Sort />
       </div>
-      <div className="content__list">
+      <div className={style.content__list}>
         {nft.map(element => 
-          <NFT element={element}/>  
+          <NavLink to={`/product/${element.id}`}>
+            <NFT element={element}/>
+          </NavLink>
         )}
       </div>
     </section>

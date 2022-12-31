@@ -1,0 +1,15 @@
+.leftCol__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
+  border-bottom: 1px solid #F2F2F2;
+  cursor: pointer;
+  transition: border-bottom-color .2s ease-in-out;
+  &:hover {
+    border-bottom-color: #22B9CA;
+  }
+}

@@ -1,0 +1,14 @@
+.errorPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  &__title {
+    margin-bottom: 30px;
+    font-size: 126px;
+  }
+  &__text {
+    font-size: 28px;
+  }
+}

@@ -1,0 +1,25 @@
+.content {
+  display: block;
+  width: 100%;
+  padding: 44px 30px 55px 16px;
+  &__header {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    width: 100%;
+  }
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
+    padding: 18px 16px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+}

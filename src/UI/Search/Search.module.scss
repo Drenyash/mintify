@@ -1,0 +1,27 @@
+.search {
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+  column-gap: 10px;
+  min-width: 322px;
+  padding: 10px 18px;
+  background: #F2F2F2;
+  border-radius: 10px;
+
+  input {
+    display: block;
+    width: 100%;
+    order: 1;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #828282;
+    
+    &::placeholder {
+      color: #828282;
+    }
+  }
+}

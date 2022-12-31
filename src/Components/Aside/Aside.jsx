@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
-import LeftColItem from './LeftColItem'
+import LeftColItem from '../LeftColItem/LeftColItem'
+import style from './Aside.module.scss'
 
 function Aside() {
   const [colItem, setColItem] = useState([
@@ -11,8 +12,8 @@ function Aside() {
     {id: 6, text: 'Sale'},
   ])
   return (
-    <aside className='left-col'>
-      <ul className="left-col__list">
+    <aside className={style.leftCol}>
+      <ul className={style.leftCol__list}>
         {colItem.map(element => 
           <LeftColItem key={element.id}>{element.text}</LeftColItem>
         )}
