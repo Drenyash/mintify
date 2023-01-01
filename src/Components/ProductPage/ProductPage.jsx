@@ -1,13 +1,14 @@
 import React from 'react'
-import { Outlet } from 'react-router-dom'
+import style from './ProductPage.module.scss'
 
 function ProductPage({element}) {
   return (
-    <div>
-      <h1>Product page:</h1>
-      {console.log(element)}
-      <Outlet />
-    </div>
+    <section className="productPage">
+      <div className="container">
+        <h1>{element.title}</h1>
+        <p className="price">Цена NFT: {element.price} {element.crypto}</p>
+      </div>
+    </section>
   )
 }
 
