@@ -2,39 +2,39 @@
   "posts": [
     {
       "id": 12331, 
-      "img": require('../../Assets/img/nft/2.webp'), 
+      "img": "#", 
       "title": 'Motion view', 
       "author": 'Pixart Motion', 
       "type": 'Fixed price', 
       "price": 0.009, 
-      "crypto": 'ETH'
+      "crypto": 'ETH',
     },
     {
       "id": 31441, 
-      "img": require('../../Assets/img/nft/2.webp'), 
+      "img": "#", 
       "title": 'Motion view', 
       "author": 'Pixart Motion', 
       "type": 'Fixed price', 
       "price": 0.012, 
-      "crypto": 'ETH'
+      "crypto": 'ETH',
     },
     {
       "id": 51242, 
-      "img": require('../../Assets/img/nft/2.webp'), 
+      "img": "#", 
       "title": 'Motion view', 
       "author": 'Pixart Motion', 
       "type": 'Fixed price', 
       "price": 0.033, 
-      "crypto": 'ETH'
+      "crypto": 'ETH',
     },
     {
       "id": 14421, 
-      "img": require('../../Assets/img/nft/2.webp'), 
-      "title": 'Motion view', 
-      "author": 'Pixart Motion', 
-      "type": 'Fixed price', 
-      "price": 0.001, 
-      "crypto": 'ETH'
+      "img": "#", 
+      "title": 'Motion view',
+      "author": 'Pixart Motion',
+      "type": 'Fixed price',
+      "price": 0.001,
+      "crypto": 'ETH',
     },
   ],
   "profile": {
